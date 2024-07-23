@@ -1,23 +1,23 @@
 {
-  "name":"BMW-MD",
-  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "name":"MidKing01 md",
+  "description":"Best whatsapp bot developed by Joshuamambo1",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/0c225f7da5616cdcbec80.jpg",
-  "repository":"https://github.com/ibraahadam/BMW-MD",
+  "repository":"https://github.com/MidKing01/BMW-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"-",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -35,8 +35,8 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-MD",
-      "required":false
+      "value":"MidKing01md",
+      "required":true 
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -50,7 +50,7 @@
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"yes",
-      "required":false
+      "required":true
     }
 	,
     "HEROKU_API_KEY": {
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUJqMEprbmhWSjNPSnFZZ3ArNzNaL2xMYVo4aFBlYmJGb2tjcTdRa04wMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ3hkamx0YzRpU3p5Zm5HL0UwZGRId05jTWtmQXZwcTJBV2w3bjVDRUZCST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzUEV4R1ZkZ3pVZ0hPMFg2Zlk3b012RDRIVUJxNVlQMjFGWkJJcG9FYWx3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJWRkNNWlIvM1lSbVhQY1Zwdm5xS2lkci9LREZJd1ZPclFnNkhoeGE3WVFBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNBeS9tUlhVak1tdEpYWFQ2MzA3U2RXdFVZQUp5cWFJOTlJV1Zlb3V3MVU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBJK0VyYlR5eWNOZHV2SkR3TmNlY2ZVTGlaL2I4MnZKbXl4d3Q0Y1hlaFk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUk0ZFdhdEQ0T1lwd1BoaXhEV2dZTGFvOXFGUHYvZ2Q0TzI0WWYzL3FHbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVkxodXVvYmM0SXhwVmFMSVFMK3l1M3NxWkYwWXFEQ0lLMWVERjQxcXdVdz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InU4RE5OeWJlOHJmalFiL25PMHhoSmJpQ1paUnhLNXNQeTdZOHcyRVVMR2w5Q2xJamFWNDhYNVllWWkrWTc2YWJXdUNSQlR2TCtkRHVDUmVIMEZqWGpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI2LCJhZHZTZWNyZXRLZXkiOiJ6ZE5DNkxMN3prU0JRTmxaSGUxMWpyeHduTUZ3YzdCVlptYUlQM09WcHZzPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJNRGdDcjNDRFE5MnBSYkJRdHVXc3p3IiwicGhvbmVJZCI6Ijk0OTk5ODI2LWVhNmYtNDIxYi04NGVmLTAwZmJhZGYxN2U3MSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJiZWFqY2xlWmlCTnZJZU5TM0lDczNyT3NmdWs9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMmlFenluZXNORVB5UFFLajRMT01ZQUMwbGtBPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjlKQko4SDhMIiwibWUiOnsiaWQiOiIyNjM3Nzc3NTYxODQ6MjVAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiSm9zaHVhbWFtYm8xIEVjb3VuQmFuIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQZU04cWdGRUpEeSs3UUdHQXNnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJuODdUbHpmRUNxQm8xWkFIYlhTNEx4Q1FGcVJReGRRa3JORmIyNmpzNjJZPSIsImFjY291bnRTaWduYXR1cmUiOiJpRXdLTUF6QXRnTGplOVNtQ0tteDQrQ3Y3WEZRbFZkM2Fwc2tjQkVLQ2dacFArNmEvbWVYbTlNZmNKN211MHluS2xZSUREYklhTXpCZUNpRVBQR0dEQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQkZIb3l2aVhDWlhBUktYL1JKK20xWXZyT215TE1oNVJHZitPK1ZFMkFVdlFQL2R6bHJRZEdWKzB5Zy9hc09KVDJRMDZDZEx2MHNZSUkySVlObEZxaVE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNjM3Nzc3NTYxODQ6MjVAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWi9PMDVjM3hBcWdhTldRQjIxMHVDOFFrQmFrVU1YVUpLelJXOXVvN090bSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMTY5NDQ5NiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFJZ2cifQ==",
       "required":true
       
     },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "Joshuamambo1"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "254739937062,254710772666"
+    "required":true,
+    "value": "263777756184"
   },
     "WARN_COUNT":
   {
@@ -97,13 +97,13 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
+    "value":"2",
+    "required": true
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-        "required": false
+        "required": true
   }
   },
 
